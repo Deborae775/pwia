@@ -6,12 +6,13 @@ html, body {
     margin:0;
     padding: 0;
     height: 100%;
-    background-color: #bdbba0;
+    background-color: #abafa4d2;
 }
 .card{
     width:268px;
     height: 474px;
     background-color: #FFFFFF;
+    margin: 10px 5px;
 }
 
 .img-card{
@@ -70,5 +71,10 @@ html, body {
     text-decoration: none;
     color: #FFFFFF;
     font-weight: bold;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
 }
 
