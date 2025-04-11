@@ -1,5 +1,5 @@
 div {
-    
+    border: 1px solid #FFFFFF;
 }
 
 html, body {
@@ -7,6 +7,11 @@ html, body {
     padding: 0;
     height: 100%;
     background-color: #abafa4d2;
+}
+header{
+    background-color: #bec02f;
+    width: 100%;
+    margin: 0 auto;
 }
 .card{
     width:268px;
