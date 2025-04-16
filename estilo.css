@@ -1,15 +1,13 @@
-div {
-    border: 1px solid #FFFFFF;
-}
+
 
 html, body {
     margin:0;
     padding: 0;
     height: 100%;
-    background-color: #abafa4d2;
+    background-color: #70376dd2;
 }
 header{
-    background-color: #bec02f;
+    background-color: #a0108d;
     width: 100%;
     margin: 0 auto;
 }
@@ -18,6 +16,7 @@ header{
     height: 474px;
     background-color: #FFFFFF;
     margin: 10px 5px;
+    border: 2px solid #000000;
 }
 
 .img-card{
@@ -35,19 +34,19 @@ header{
 .preco{
     font-size: 25px;
     font-family: Impact ;
-    color:#55131e;
+    color:#000000;
     font-weight: bold;
     padding:10px 5px ;
 }
 .pagamento{
-    color:#666666;
+    color:#000000;
     font-family: Arial;
     padding:10px 5px ;
     font-size: 11px;
 }
 
 .botao-card{
-    background-color: #55131e;
+    background-color: #000000;
     color:#FFFFFF;
     font-weight: bold;
     width: 100%;
@@ -60,7 +59,7 @@ header{
     padding:10px 5px ;
 }
 .menu{
-    background-color: #666666 ;
+    background-color: #000000 ;
     color: #FFFFFF;
     border:1px solid;
     display: flex;
