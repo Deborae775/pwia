@@ -1,0 +1,37 @@
+.dados-produto{
+    background-color: blue;
+ 
+}
+
+.img-produto{
+    background-color: rgb(0, 0, 0);
+    width: 50% ;
+}
+
+.info-produto{
+    background-color: rgb(179, 23, 95);
+}
+
+.titulo-produto{
+    background-color: rgb(255, 66, 183);
+}
+
+.valor-produto{
+    background-color: rgb(77, 10, 51);
+}
+
+.add-produto-carrinho{
+    background-color: rgb(24, 14, 0);
+}
+
+.descricao-produto{
+background-color: rgb(144, 178, 243);
+}
+
+section{
+    
+}
+
+.lista-personalizada{
+    list-style:none  ;
+}
