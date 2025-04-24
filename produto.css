@@ -29,7 +29,14 @@ background-color: rgb(144, 178, 243);
 }
 
 section{
-    
+    background-color: rgb(173, 8, 255);
+}
+.card.produto{
+    width:268px;
+    height: 474px;
+    background-color: #FFFFFF;
+    margin: 10px 5px;
+    border: 2px solid #000000;
 }
 
 .lista-personalizada{
