@@ -1,8 +1,27 @@
 <script>
 
-var numero1 =  parseInt (prompt ("Digite o primeiro numero"))
-var numero2 =  parseInt (prompt ("Digite o segundo numero"))
-var soma = numero1 + numero2
-alert (soma)
+//var idade = parseInt (prompt("Digite a sua idade:\n"))
+/*
+if(idade>==16 %% idade>==18){
+    alert( 'Você pode votar e dirigir ')
+}
+
+if(idade>==16){
+    alert( 'Você pode votar e não pode dirigir ')
+}
+
+else (idade>==18){
+    alert( ' ')
+}
+*/
+
+var tabuada = parseInt (prompt("Digite o numero para fazer uma tabuada:\n"))
+  document.write("TABUADA<br/>")
+for(var i=1 ; i<11;i++)
+{
+    //alert("For rodada "+i)
+    document.write(i+"x"+ tabuada+ "="+ (tabuada * i)+ "<br/>" )
+}
 
 </script>
+
