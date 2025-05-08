@@ -36,5 +36,81 @@
 //var soma = numero1 + numero2
 //document.write("A soma dos numeros é:\n" +soma )
 
+
+//Qual classificação de idade de 1 a 3 você pertence
+// var numero1 = Number( prompt("Digite um numero") ) 
+// var numero2 = Number( prompt("Digite outro numero") )
+// var soma = numero1 + numero2
+// if(soma >= 60)
+//{
+//     alert('você é da 3º idade')
+// }
+//else if(soma >= 30)
+//{
+//     alert('vc é da 2º idade')
+//}
+// else
+// {
+//  alert('vc é da 1º idade')
+// } 
+
+
+
+   //Tabuada de qualquer numero até 10
+  // var tabuada = Number(prompt('Qual tabuada vc quer ver ?'))
+
+  // for(var i = 0; i <= 10; i++)
+  //{
+  //  document.write("<h1>"+i+" X "+tabuada+" = "+(i*tabuada)+"</h1>")
+  // }
+
+
+//criar função
+//function MostrarAlerta()
+//{
+//     alert('oi')
+//}
+//MostrarAlerta()
+
+
+//linguagem de parametro
+//o parametro de texto
+
+//function MostrarAlerta(texto)
+//{
+//    //vai ficar fixo oq a pessoa escrever
+//    alert(texto)
+//}
+//MostrarAlerta("Hello world")
+//MostrarAlerta(prompt("Digite algo"))
+
+
+function MostrarAlerta(texto)
+{
+     alert(texto)
+}
+function somar( numero1,numero2)
+{
+    var soma= Number(numero1)+Number(numero2)
+    return soma
+}
+
+//maneira mais curta
+//MostrarAlerta(somar( prompt('Digita o numero: '), prompt('Digite o segundo numero:') ) )
+
+//maneira mais longa
+
+function CliqueBotao()
+{
+var numero1 = (prompt("Digite o primeiro numero:"))
+var numero2 = (prompt("Digite o segundo numero:"))
+
+var resultado = somar (numero1,numero2)
+MostrarAlerta( resultado )
+}
+</script>
+
+<button onclick="CliqueBotao()"> Somar</button>
+
 </script>
 
