@@ -1,0 +1,73 @@
+<input type="text" name="num1"  id="numero1"/>
+<br/>
+<input type="text" name="num2"  id="numero2"/>
+<br/>
+<button id="botao" onclick="Somar()">
+    +
+</button>
+<br/>
+
+<button id="botao" onclick="Dividir()">
+    /
+</button>
+<br/>
+
+<button id="botao" onclick="Multiplicar()">
+    X
+</button>
+<br/>
+
+<button id="botao" onclick="Subtrair()">
+    -
+</button>
+<br/>
+
+<script>
+
+    function Somar()
+    {
+        var numero1 = document.getElementById("numero1")
+        var numero2 = document.getElementById("numero2")
+        alert(Number(numero1.value) + Number(numero2.value))
+
+    }
+    function Dividir()
+    {
+        var numero1 = document.getElementById("numero1")
+        var numero2 = document.getElementById("numero2")
+        alert(Number(numero1.value) / Number(numero2.value))
+
+    }
+
+    function Multiplicar()
+    {
+        var numero1 = document.getElementById("numero1")
+        var numero2 = document.getElementById("numero2")
+        alert(Number(numero1.value) * Number(numero2.value))
+
+    }
+
+    function Subtrair)
+    {
+        var numero1 = document.getElementById("numero1")
+        var numero2 = document.getElementById("numero2")
+        alert(Number(numero1.value) - Number(numero2.value))
+
+    }
+   /*
+    var button =  document.getElementById("botao")
+    if(botao.style.backgroundColor == "red")
+    {
+        botao.style.backgroundColor = "blue"
+    }
+    else
+    {
+        botao.style.backgroundColor = "red"
+    }
+    
+    */
+    //console.log(entrada)
+    //alert(entrada)
+    
+
+    </script>
