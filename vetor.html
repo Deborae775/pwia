@@ -3,33 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Vetor</title>
 </head>
 <body>
-    <input id="texto" name="texto" type="texto"/>
+ 
+    <input type="text" name="texto" id="texto">
     <button onclick="adicionarImagem()">Adicionar</button>
     <ul id="listaImagens">
     </ul>
+ 
     <script>
-       function adicionarImagem()
-
-       {
+ 
+        function adicionarImagem()
+        {
             var lista = document.getElementById('listaImagens')
             var texto = document.getElementById('texto')
             var item = document.createElement("li")
-            var img = document.createElement("img")
-            img.src = texto.value
-            img.width = 150
-            img.height = 75
-            item.append (img)
-            lista.append(item)
-            
+            var imagem = document.createElement('img')
+            imagem.src = texto.value
+            imagem.width = 150
+            imagem.height = 90
             item.innerText = texto.value
             lista.append(item)
+            lista.append(imagem)
         }
+         var nomes =[
+            "Nix",
+            "Malu", 
+            "Heitor",
+            "Débora",
+            "Helena",
+            "Lilian",
+            "Carlos",
+            "Marcos",
+            "Ana",
+            "Lucas" ,
+            "Eliana" ,
+            "Paula" ,
+            "Viviane" ,
+            "Gabriel" ,
+            "Estefania" ,
+            "Enzo",
+            "Felipe",
+            "Edna",
+            "Isabel",
+            "Jaqueline" ,
+            "Fernando" ,
+            
+            
+            ]
+         alert (
            
-      
-        
+            nomes[numeroAleatorio( nomes.length)] 
+            
+         )
+
+         function numeroAleatorio(numeroMaximo)
+         {
+            return Math.floor (Math.random () * numeroMaximo)
+         }
+         //alert (nomes[ numeroAleatorio (nomes.leagth)])
+
+
+         for(var i= 0; i< nomes.length; i++)
+         {
+            document.write("<br>"+nomes[i])
+         }
 
     </script>
 </body>
