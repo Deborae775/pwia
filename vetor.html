@@ -52,11 +52,11 @@
             
             
             ]
-         alert (
+         // alert (
            
-            nomes[numeroAleatorio( nomes.length)] 
+         //    nomes[numeroAleatorio( nomes.length)] 
             
-         )
+         // )
 
          function numeroAleatorio(numeroMaximo)
          {
@@ -65,10 +65,46 @@
          //alert (nomes[ numeroAleatorio (nomes.leagth)])
 
 
-         for(var i= 0; i< nomes.length; i++)
+         // for(var i= 0; i< nomes.length; i++)
+         // {
+         //    document.write("<br>"+nomes[i])
+         // }
+
+         //nomes.reverse(); //Ele inverte a ordem
+        // nomes.shift(); //Remove no começo
+        // nomes.unshift(); //Acrescenta no começo
+        // nomes.pop() // Remove o ultimo item da lista
+        //nomes.push() //Acrescenta no começo
+
+         exibirLista(nomes);
+         nomes.reverse();//inverte a ordem dos elementos.
+         exibirLista(nomes);
+         nomes.unshift("Novo nome no inicio da lista");
+         exibirLista(nomes);
+         nomes.shift();//remove do começo
+         exibirLista(nomes);
+         nomes.push("Joaquim do Final da lista")
+         exibirLista(nomes);
+         nomes.pop()//remove do final
+         exibirLista(nomes);
+
+
+
+
+         function exibirLista(nomes)
          {
-            document.write("<br>"+nomes[i])
+            document.write("<hr>")
+            nomes.forEach(
+            (valor, indice) =>{
+               document.write("indice:"+indice+"valor é:"+valor+"<br>")
+            }
+         )
          }
+
+
+      
+         
+         
 
     </script>
 </body>
